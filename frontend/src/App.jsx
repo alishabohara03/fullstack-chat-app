@@ -18,9 +18,9 @@ const App = () => {
    const {authUser, checkAuth, isCheckAuth, onlineUsers} = useAuthStore()
    const { theme } = useThemeStore();
      console.log({ onlineUsers });
-useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-  }, [theme]);
+// useEffect(() => {
+//     document.documentElement.setAttribute("data-theme", theme);
+//   }, [theme]);
 
    useEffect(() => {
     checkAuth();
@@ -45,19 +45,12 @@ useEffect(() => {
             <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
       </Routes>
 
-      <Toaster></Toaster>
+      <Toaster/>
     </div>
   )
 }
 
 export default App;
-
-
-
-
-
-
-
 
 
 
