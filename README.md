@@ -31,12 +31,12 @@ JWT – JSON Web Tokens for secure Authentication & Authorization
 
 🎨 Beautiful UI built using TailwindCSS + DaisyUI
 
-
-Here is the Deployed link:
-https://fullstack-chat-app-90ry.onrender.com
-
 🌐 Global state management using Zustand
 
 🧠 Error handling on both client & server side
 
 📱 Fully responsive and mobile-friendly design
+
+
+Here is the Deployed link:
+https://fullstack-chat-app-90ry.onrender.com
